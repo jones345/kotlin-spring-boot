@@ -1,0 +1,20 @@
+server:
+  port: 8290
+  contextPath:
+  servletPath:
+  baseUrl: http://localhost:8290
+  baseUrlHttps: https://localhost:8290
+  baseUrlWs: ws://localhost:8290
+  baseUrlWss: wss://localhost:8290
+  baseUrlWssSsl: wss://localhost:8290
+
+# Path: src/main/resources/application-prod.yml
+#server:
+#  port: 8290
+#  contextPath:
+#  servletPath:
+#  baseUrl: http://localhost:8290
+#  baseUrlHttps: https://localhost:8290
+#  baseUrlWs: ws://localhost:8290
+#  baseUrlWss: wss://localhost:8290
+#  baseUrlWssSsl: wss://localhost:8290

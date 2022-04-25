@@ -1,0 +1,19 @@
+server:
+  port: 8290
+  contextPath:
+  servletPath:
+  baseUrl: http://localhost:8290
+  baseUrlHttps: https://localhost:8290
+  baseUrlWs: ws://localhost:8290
+  baseUrlWss: wss://localhost:8290
+  baseUrlWssSsl: wss://localhost:8290
+#bookings
+  data:
+    jpa:
+      repositories:
+        enabled: true
+    datasource:
+      driverClassName: org.postgresql.Driver
+      password: bitri
+      url: jdbc:postgresql://localhost:5432/bookings
+      username: bitri
